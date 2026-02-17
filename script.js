@@ -9,14 +9,6 @@ menuBtn.addEventListener("click", () => {
 // Footer year
 document.getElementById("year").textContent = new Date().getFullYear();
 
-/*
-  EDIT THESE LINKS ONCE:
-  - Replace YOUR_GITHUB_USERNAME in HTML
-  - Replace YOUR_THM_USERNAME in HTML
-  - Replace YOUR_LINKEDIN in HTML
-  - Replace YOUR_EMAIL in HTML
-*/
-
 // ====== DATA ======
 
 const caseStudies = [
@@ -25,21 +17,21 @@ const caseStudies = [
     desc: "Validated a hypothesis, extracted IOCs, reconstructed attack chain, and defined scope using structured investigation workflow.",
     category: "Threat Hunting",
     difficulty: "Medium",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/threat-hunting-simulator.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/threat-hunting-simulator.md"
   },
   {
     title: "Windows Malware Triage (PEStudio + PowerShell)",
     desc: "Static analysis of a suspicious executable, hash extraction, indicators, and safe investigation workflow.",
     category: "Malware Analysis",
     difficulty: "Medium",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/malware-analysis/windows-malware-triage.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/malware-analysis/windows-malware-triage.md"
   },
   {
     title: "SOC Log Investigation (Windows Event Logs)",
     desc: "Investigated suspicious authentication events, built a timeline, and documented findings like a real SOC case.",
     category: "Windows",
     difficulty: "Easy",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/windows/windows-event-investigation.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/windows/windows-event-investigation.md"
   }
 ];
 
@@ -49,42 +41,42 @@ const writeups = [
     desc: "Analyzed suspicious artifacts and determined whether activity was malicious or safe.",
     category: "Threat Hunting",
     difficulty: "Easy",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/to-benign-or-not-benign.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/to-benign-or-not-benign.md"
   },
   {
     title: "ItsyBitsy (SIEM Challenge)",
     desc: "Worked through a SIEM investigation and extracted evidence supporting a conclusion.",
     category: "Threat Hunting",
     difficulty: "Medium",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/itsybitsy.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/itsybitsy.md"
   },
   {
     title: "Intel Only Challenge",
     desc: "Performed threat intel lookups and linked IOCs to known malicious infrastructure.",
     category: "Threat Hunting",
     difficulty: "Easy",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/intel-only-challenge.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/threat-hunting/intel-only-challenge.md"
   },
   {
     title: "Basic Linux Investigation",
     desc: "Used Linux commands to enumerate system activity and validate suspicious behavior.",
     category: "Linux",
     difficulty: "Easy",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/linux/basic-linux-investigation.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/linux/basic-linux-investigation.md"
   },
   {
     title: "Web Recon & Enumeration",
     desc: "Performed recon, directory discovery, and vulnerability identification with clean documentation.",
     category: "Web",
     difficulty: "Easy",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/web/web-recon-enumeration.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/web/web-recon-enumeration.md"
   },
   {
     title: "Windows Fundamentals Investigation",
     desc: "Documented Windows artifacts, tools, and key commands used during analysis.",
     category: "Windows",
     difficulty: "Easy",
-    link: "https://github.com/YOUR_GITHUB_USERNAME/cybersecurity-tryhackme-portfolio/blob/main/writeups/windows/windows-fundamentals-investigation.md"
+    link: "https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio/blob/main/writeups/windows/windows-fundamentals-investigation.md"
   }
 ];
 
@@ -151,3 +143,4 @@ function applyFilters() {
 
 searchInput.addEventListener("input", applyFilters);
 categorySelect.addEventListener("change", applyFilters);
+
