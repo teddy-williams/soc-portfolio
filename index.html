@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teddy | SOC Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="logo">Teddy<span class="accent">.</span></div>
+
+      <nav class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#writeups">Writeups</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#skills">Skills</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#writeups">Writeups</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="tag">SOC Analyst • Threat Hunting • Incident Response</p>
+        <h1>Teddy | SOC Analyst Portfolio</h1>
+        <p class="subtext">
+          A practical cybersecurity portfolio focused on real SOC workflows:
+          triage, investigation, IOC extraction, malware analysis, and threat hunting —
+          documented through TryHackMe labs and structured writeups.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="https://github.com/teddy-williams" target="_blank">View GitHub</a>
+          <a class="btn secondary" href="https://tryhackme.com/p/williamsmavuso" target="_blank">TryHackMe Profile</a>
+          <a class="btn ghost" href="#writeups">View Writeups</a>
+        </div>
+
+        <div class="quick-info">
+          <div class="quick-card">
+            <p class="quick-title">Focus</p>
+            <p class="quick-value">Blue Team / SOC</p>
+          </div>
+          <div class="quick-card">
+            <p class="quick-title">Strength</p>
+            <p class="quick-value">Threat Hunting</p>
+          </div>
+          <div class="quick-card">
+            <p class="quick-title">Proof</p>
+            <p class="quick-value">GitHub Writeups</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="profile-card">
+          <div class="avatar"></div>
+          <h2>About</h2>
+          <p>
+            I document investigations like a real SOC analyst: structured notes,
+            tools used, commands executed, findings, and real-world mapping (MITRE, IR steps).
+          </p>
+
+          <div class="profile-links">
+            <a href="https://www.linkedin.com/in/mavuso-williams" target="_blank">LinkedIn</a>
+            <a href="https://github.com/teddy-williams" target="_blank">GitHub</a>
+            <a href="mailto:williamsmavuso@gamil.com">Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Tools</h2>
+      <p class="section-subtitle">
+        A mix of SOC tooling, endpoint analysis, and hands-on lab investigation.
+      </p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Blue Team / SOC</h3>
+          <ul>
+            <li>IOC extraction & triage</li>
+            <li>Windows Event Log analysis</li>
+            <li>Incident timeline reconstruction</li>
+            <li>Threat hunting methodology</li>
+            <li>Basic malware static analysis</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Wireshark</li>
+            <li>Sysinternals (Process Explorer)</li>
+            <li>PEStudio</li>
+            <li>PowerShell (IR commands)</li>
+            <li>Nmap (recon)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Systems & Scripting</h3>
+          <ul>
+            <li>Windows</li>
+            <li>Linux (Kali, Ubuntu)</li>
+            <li>WSL (Kali Linux)</li>
+            <li>Bash basics</li>
+            <li>Python fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section class="section" id="case-studies">
+    <div class="container">
+      <h2 class="section-title">Featured Case Studies</h2>
+      <p class="section-subtitle">
+        Deeper writeups that show full workflow: hypothesis → evidence → conclusion.
+      </p>
+
+      <div class="grid-3" id="caseStudyGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- WRITEUPS -->
+  <section class="section" id="writeups">
+    <div class="container">
+      <div class="writeups-head">
+        <div>
+          <h2 class="section-title">TryHackMe Writeups</h2>
+          <p class="section-subtitle">
+            Organized by category. Each writeup includes: tools, commands, findings, and lessons learned.
+          </p>
+        </div>
+
+        <div class="filters">
+          <input type="text" id="searchInput" placeholder="Search writeups..." />
+          <select id="categorySelect">
+            <option value="all">All Categories</option>
+            <option value="Threat Hunting">Threat Hunting</option>
+            <option value="Malware Analysis">Malware Analysis</option>
+            <option value="Windows">Windows</option>
+            <option value="Web">Web</option>
+            <option value="Linux">Linux</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid-3" id="writeupGrid">
+        <!-- Filled by JS -->
+      </div>
+
+      <div class="center">
+        <a class="btn secondary" href="https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio" target="_blank">
+          View Full GitHub Repo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">
+        If you want to discuss SOC roles, threat hunting, or my portfolio — reach out.
+      </p>
+
+      <div class="contact-card">
+        <div>
+          <p class="contact-label">Email</p>
+          <p class="contact-value"><a href="mailto:williamsmavuso@gmail.com">williamsmavuso@gmail.com</a></p>
+        </div>
+
+        <div>
+          <p class="contact-label">LinkedIn</p>
+          <p class="contact-value"><a href="https://www.linkedin.com/in/mavuso-williams" target="_blank">linkedin.com/in/mavuso-williams</a></p>
+        </div>
+
+        <div>
+          <p class="contact-label">GitHub</p>
+          <p class="contact-value"><a href="https://github.com/teddy-williams" target="_blank">github.com/teddy-williams</a></p>
+        </div>
+      </div>
+
+      <p class="footer">
+        © <span id="year"></span> Teddy • Built with HTML/CSS/JS • Hosted on GitHub Pages
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
