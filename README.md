@@ -11,9 +11,7 @@ The website highlights:
 ---
 
 ## 🌐 Live Website
-(Enable GitHub Pages first, then paste your live link here)
 
-Example:
 https://teddy-williams.github.io/teddy-soc-portfolio/
 
 ---
