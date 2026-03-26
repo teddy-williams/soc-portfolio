@@ -43,7 +43,3 @@ https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio
 GitHub will generate your live site link.
 
 ---
-
-## 👤 Author
-**Teddy Williams**  
-GitHub: https://github.com/teddy-williams
