@@ -31,15 +31,3 @@ All TryHackMe writeups are stored here:
 https://github.com/teddy-williams/cybersecurity-tryhackme-portfolio
 
 ---
-
-## 🚀 Deployment (GitHub Pages)
-
-1. Go to **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: **main**
-4. Folder: **/ (root)**
-5. Save
-
-GitHub will generate your live site link.
-
----
