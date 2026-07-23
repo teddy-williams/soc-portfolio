@@ -12,7 +12,7 @@ The website highlights:
 
 ## 🌐 Live Website
 
-https://teddy-williams.github.io/teddy-soc-portfolio/
+[https://teddy-williams.github.io/soc-portfolio/](https://teddy-williams.github.io/soc-portfolio/)
 
 ---
 
